@@ -67,7 +67,7 @@ app.all("/api/v1/content/emoticons", (req, res) => {
 });
 
 app.all("/api/v1/store/steam/prices", (req, res) => {
-  res.json(require("./api/v1/store/steam/prices.json"));
+  res.json(require("./api/v1/store[1]/steam/prices.json"));
 });
 
 app.all("/api/v1/entitlements", (req, res) => {
@@ -75,7 +75,7 @@ app.all("/api/v1/entitlements", (req, res) => {
 });
 
 app.all("/api/v1/entitlements/equipped", (req, res) => {
-  res.json(require("./api/v1/entitlements/equipped.json"));
+  res.json(require("./api/v1/entitlements[1]/equipped.json"));
 });
 
 app.all("/api/v1/catalog", (req, res) => {
@@ -284,7 +284,7 @@ app.all("/api/v2/battle-pass", (req, res) => {
 });
 
 app.all("/api/v2/battle-pass/progress", (req, res) => {
-  res.json(require("./api/v2/battle-pass/progress.json"));
+  res.json(require("./api/v2/battle-pass[1]/progress.json"));
 });
 
 app.all("/api/v1/ranked/leaderboard/search/:id", (req, res) => {
@@ -296,7 +296,18 @@ app.post("/api/v2/battle-pass/begin", (req, res) => {
 });
 
 app.all("/api/v2/battle-pass/missions", (req, res) => {
-  res.json(require("./api/v2/battle-pass/missions.json"));
+  res.json({
+    "error": {
+      "message": "Cannot find battle pass instance",
+      "type": "Error",
+      "code": 92,
+      "error_user_title": "something_went_wrong_title",
+      "error_user_msg": "something_went_wrong_body",
+      "trace_id": "e17a9821-2d36-4981-adfb-2436dde138db"
+    }
+  })
+    
+    //require("./api/v2/battle-pass/missions.json")
 });
 
 app.all("/api/v2/mastery/characters/definitions", (req, res) => {
@@ -618,7 +629,7 @@ app.all("/api/v2/rookie-road/:id", (req, res) => {
 });
 
 app.all("/api/v1/in-app-purchase/*", (req, res) => {
-  res.json(require("./api/v1/in-app-purchase.json"));
+  res.json(require("./api/v1/in-app-purchase[1].json"));
 });
 
 app.all("/api/v1/supported-regions", (req, res) => {
