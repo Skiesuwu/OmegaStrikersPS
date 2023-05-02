@@ -34,16 +34,554 @@ app.all("/api/v1/players/loadouts/role-presets", (req, res) => {
   res.json(require("./api/v1/players/loadouts/rolePresets.json"));
 });
 
+app.all("/api/v1/tutorial/screen-opened", (req, res) => {
+  res.json({});
+});
+
 app.all("/api/v1/players/matchmaking-constraints", (req, res) => {
   res.json(require("./api/v1/players/matchmaking-constraints"));
 });
 
 app.all("/api/v1/players/selected-loadout", (req, res) => {
-  res.json(require("./api/v1/players/selected-loadout"));
+  res.json(require("./api/v1/players/selected-loadout.json"));
+});
+
+app.all("/api/v1/ranked/leaderboard/players", (req, res) => {
+  console.log("uwu211231");
+  res.json({});
+});
+
+app.all("/api/v1/entitlements/equip-for-account", (req, res) => {
+  console.log("uwu 12");
+
+  res.json({
+    wasAlreadyEquipped: false,
+    equipped: {
+      timestamp: "2023-05-02T19:53:42.388Z",
+      reactions: {
+        defaultReactionList: { entries: [] },
+        reactionListByCharacterId: {},
+      },
+      equipped: {
+        GoalExplosion: { defaultId: "GoalExplosionData_BasicRecolor4" },
+      },
+    },
+  });
+});
+
+app.all("/api/v1/players/matchmaking-constraints", (req, res) => {
+  console.log("uwu");
+
+  res.json({
+    timestamp: "2023-05-02T19:53:11.164Z",
+    selectedCharacterAssetName: "CD_StalwartProtector",
+    intendedRole: "Flex",
+    hasSelectedBanCharacter: false,
+    selectedBanCharacterAssetName: "",
+    region: "NorthAmerica",
+  });
 });
 
 app.all("/api/v1/players/:id/loadouts", (req, res) => {
-  res.json(require("./api/v1/players/" + req.params.id + "/loadouts"));
+  res.json({
+    timestamp: "2023-05-02T19:29:01.917Z",
+    loadouts: [
+      {
+        slotId: "CD_SpeedySkirmisherDefault",
+        characterAssetId: "CD_SpeedySkirmisher",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_StrikeRockSpeedUp",
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_DistancePower",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_AngelicSupportDefault",
+        characterAssetId: "CD_AngelicSupport",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_MaxStaggerIncrease",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_EmpoweringEnchanterDefault",
+        characterAssetId: "CD_EmpoweringEnchanter",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_SpecialCooldownAfterRounds",
+          "TD_StrikeRockSpeedUp",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_StalwartProtectorDefault",
+        characterAssetId: "CD_StalwartProtector",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_MaxStaggerIncrease",
+          "TD_SizeIncrease",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_FlexibleBrawlerDefault",
+        characterAssetId: "CD_FlexibleBrawler",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_StrikeRockSpeedUp",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_NimbleBlasterDefault",
+        characterAssetId: "CD_NimbleBlaster",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_ManipulatingMastermindDefault",
+        characterAssetId: "CD_ManipulatingMastermind",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_SpecialCooldownAfterRounds",
+          "TD_BuffAndDebuffDuration",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_MagicalPlaymakerDefault",
+        characterAssetId: "CD_MagicalPlaymaker",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_DistancePower",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_ChaoticRocketeerDefault",
+        characterAssetId: "CD_ChaoticRocketeer",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_EmpoweredHitsBuff",
+          "TD_DistancePower",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_TempoSniperDefault",
+        characterAssetId: "CD_TempoSniper",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_DistancePower",
+          "TD_StrikeRockSpeedUp",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_CleverSummonerDefault",
+        characterAssetId: "CD_CleverSummoner",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_DistancePower",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_HulkingBeastDefault",
+        characterAssetId: "CD_HulkingBeast",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_KnockAnythingRecoverStagger",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_MagicalPlaymakerDefaultAlternate",
+        characterAssetId: "CD_MagicalPlaymaker",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_DistancePower",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_StalwartProtectorDefaultAlternate",
+        characterAssetId: "CD_StalwartProtector",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_MaxStaggerIncrease",
+          "TD_SizeIncrease",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_FlexibleBrawlerDefaultAlternate",
+        characterAssetId: "CD_FlexibleBrawler",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_StrikeRockSpeedUp",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_SpeedySkirmisherDefaultAlternate",
+        characterAssetId: "CD_SpeedySkirmisher",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_StrikeRockSpeedUp",
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_DistancePower",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_CleverSummonerDefaultAlternate",
+        characterAssetId: "CD_CleverSummoner",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_DistancePower",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_NimbleBlasterDefaultAlternate",
+        characterAssetId: "CD_NimbleBlaster",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_HulkingBeastDefaultAlternate",
+        characterAssetId: "CD_HulkingBeast",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_KnockAnythingRecoverStagger",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_TempoSniperDefaultAlternate",
+        characterAssetId: "CD_TempoSniper",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_DistancePower",
+          "TD_StrikeRockSpeedUp",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_AngelicSupportDefaultAlternate",
+        characterAssetId: "CD_AngelicSupport",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_MaxStaggerIncrease",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_ManipulatingMastermindDefaultAlternate",
+        characterAssetId: "CD_ManipulatingMastermind",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_SpecialCooldownAfterRounds",
+          "TD_BuffAndDebuffDuration",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_EmpoweringEnchanterDefaultAlternate",
+        characterAssetId: "CD_EmpoweringEnchanter",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_SpecialCooldownAfterRounds",
+          "TD_StrikeRockSpeedUp",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_ChaoticRocketeerDefaultAlternate",
+        characterAssetId: "CD_ChaoticRocketeer",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_EmpoweredHitsBuff",
+          "TD_DistancePower",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_ZipDefault",
+        characterAssetId: "CD_Zip",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_StrikeRockSpeedUp",
+          "TD_FasterDashes",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_ZipDefaultAlternate",
+        characterAssetId: "CD_Zip",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_StrikeRockSpeedUp",
+          "TD_FasterDashes",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_QuincyDefault",
+        characterAssetId: "CD_Quincy",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_FasterDashes",
+          "TD_SpecialCooldownAfterRounds",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_QuincyDefaultAlternate",
+        characterAssetId: "CD_Quincy",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_FasterDashes",
+          "TD_SpecialCooldownAfterRounds",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_GravityMage",
+        characterAssetId: "CD_GravityMage",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_EmpoweredHitsBuff",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_GravityMageAlternate",
+        characterAssetId: "CD_GravityMage",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_EmpoweredHitsBuff",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_DeadgeDefault",
+        characterAssetId: "CD_Deadge",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_FasterDashes",
+          "TD_KnockAnythingRecoverStagger",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_DeadgeDefaultAlternate",
+        characterAssetId: "CD_Deadge",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_EmpoweredHitsBuff",
+          "TD_FasterDashes",
+          "TD_KnockAnythingRecoverStagger",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_ShieldUserDefault",
+        characterAssetId: "CD_ShieldUser",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_MaxStaggerIncrease",
+          "TD_EmpoweredHitsBuff",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_ShieldUserDefaultAlternate",
+        characterAssetId: "CD_ShieldUser",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_MaxStaggerIncrease",
+          "TD_EmpoweredHitsBuff",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_EDMOniDefault",
+        characterAssetId: "CD_EDMOni",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_StrikeRockSpeedUp",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_RockOniDefaultAlternate",
+        characterAssetId: "CD_RockOni",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_EmpoweredHitsBuff",
+          "TD_SpecialCooldownAfterRounds",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_RockOniDefault",
+        characterAssetId: "CD_RockOni",
+        index: -1,
+        allowedRoles: ["Forward"],
+        trainingAssetIds: [
+          "TD_PrimaryAbilityCooldownReduction",
+          "TD_EmpoweredHitsBuff",
+          "TD_SpecialCooldownAfterRounds",
+        ],
+        customName: "Default Forward",
+        banCharacterAssetId: null,
+      },
+      {
+        slotId: "CD_EDMOniDefaultAlternate",
+        characterAssetId: "CD_EDMOni",
+        index: -1,
+        allowedRoles: ["Goalie"],
+        trainingAssetIds: [
+          "TD_StrikeRockSpeedUp",
+          "TD_SpecialCooldownAfterRounds",
+          "TD_PrimaryAbilityCooldownReduction",
+        ],
+        customName: "Default Goalie",
+        banCharacterAssetId: null,
+      },
+    ],
+  });
 });
 
 app.all("/api/v1/players/feature-flags", (req, res) => {
@@ -56,6 +594,24 @@ app.all("/api/v1/regions", (req, res) => {
 
 app.all("/api/v1/content/characters", (req, res) => {
   res.json(require("./api/v1/content/characters.json"));
+});
+
+app.all("/api/v1/players/:id/characters", (req, res) => {
+  console.log(`${req.params.id} maybe this will work.`);
+
+  res.json(require("./api/v1/content/characters.json"));
+});
+
+app.all("/api/v1/players/:id/power-ups", (req, res) => {
+  console.log(`${req.params.id} maybe this will work.`);
+
+  res.json(require("./api/v1/content/power-ups.json"));
+});
+
+app.all("/api/v1/players/:id/emoticons", (req, res) => {
+  console.log(`${req.params.id} maybe this will work.`);
+
+  res.json(require("./api/v1/content/emoticons.json"));
 });
 
 app.all("/api/v1/content/power-ups", (req, res) => {
@@ -182,7 +738,7 @@ app.post("/api/v1/login/steam", async (req, res) => {
       isTutorialComplete: true,
       screensOpened: ["Missions", "gearandawakeningtutorial"],
     },
-    rookieRoadStatus: { complete: false, active: true },
+    rookieRoadStatus: { complete: true, active: true },
     matchmakingRegion: "NorthAmerica",
     gameLiftRegionUrls: [
       { region: "us-east-2", url: "gamelift.us-east-2.amazonaws.com" },
@@ -297,17 +853,17 @@ app.post("/api/v2/battle-pass/begin", (req, res) => {
 
 app.all("/api/v2/battle-pass/missions", (req, res) => {
   res.json({
-    "error": {
-      "message": "Cannot find battle pass instance",
-      "type": "Error",
-      "code": 92,
-      "error_user_title": "something_went_wrong_title",
-      "error_user_msg": "something_went_wrong_body",
-      "trace_id": "e17a9821-2d36-4981-adfb-2436dde138db"
-    }
-  })
-    
-    //require("./api/v2/battle-pass/missions.json")
+    error: {
+      message: "Cannot find battle pass instance",
+      type: "Error",
+      code: 92,
+      error_user_title: "something_went_wrong_title",
+      error_user_msg: "something_went_wrong_body",
+      trace_id: "e17a9821-2d36-4981-adfb-2436dde138db",
+    },
+  });
+
+  //require("./api/v2/battle-pass/missions.json")
 });
 
 app.all("/api/v2/mastery/characters/definitions", (req, res) => {
@@ -326,13 +882,18 @@ app.all("/api/v1/mastery/:id/player", (req, res) => {
 });
 
 app.all("/api/v2/rookie-road/:id", (req, res) => {
-  res.json(require("./api/v2/rookie-road.json"));
+  const rookieRoad = require("./api/v2/rookie-road/rookieRoad.json");
+  const rookieRoadProgress = require("./api/v2/rookie-road/progress.json");
 
-  if (require("./api/v2/rookie-road.json").rookieRoadDefinition.id === null) {
-    return (
-      require("./api/v2/rookie-road.json").rookieRoadDefinition.id ===
-      req.params.id
-    );
+  if (
+    rookieRoad.rookieRoadDefinition.id === null &&
+    rookieRoadProgress.instance.playerId === null
+  ) {
+    rookieRoad.rookieRoadDefinition.id = req.params.id;
+    rookieRoadProgress.instance.playerId = req.params.id;
+    rookieRoadProgress.instance.definitionId = req.params.id;
+
+    return res.json({ rookieRoad, rookieRoadProgress });
   }
 });
 
@@ -649,7 +1210,9 @@ app.all("/api/v1/chat/group-messages/:id", (req, res) => {
 });
 
 app.all("/api/v1/events/:leaderboardId/leaderboard", (req, res) => {
-  res.json(require("./api/v1/events/" + req.params.leaderboardId + "/leaderboard"));
+  res.json(
+    require("./api/v1/events/" + req.params.leaderboardId + "/leaderboard")
+  );
 });
 
 app.all("/api/v1/popups", (req, res) => {
