@@ -104,7 +104,7 @@ app.all("/api/v1/tournament/player-status", (req, res) => {
 app.all("/api/v1/login/token", (req, res) => {
   res.json({
     timestamp: "2020-05-21T18:36:38.383Z",
-    username: "Private Server by Skies",
+    username: "Test",
     playerId: "",
     logoId: "EmoticonData_DefaultThumbsUp",
     title: "",
@@ -169,7 +169,7 @@ app.post("/api/v1/login/steam", async (req, res) => {
 
   res.json({
     timestamp: "2020-05-21T18:36:38.383Z",
-    username: "Private Server by Skies",
+    username: "Test",
     playerId: "",
     logoId: "EmoticonData_DefaultThumbsUp",
     title: "",
@@ -318,6 +318,35 @@ app.all("/api/v1/mastery/:id/player", (req, res) => {
     currentLevelXp: 10000000000000,
     xpToNextLevel: 20000000000000000,
     totalXp: 200000000000,
+  });
+});
+
+app.all("/api/v2/rookie-road/:id", (req, res) => {
+  res.json(require("./data/rookieRoad.json"));
+
+  if (require("./data/rookieRoad.json").rookieRoadDefinition.id === null) {
+    return (
+      require("./data/rookieRoad.json").rookieRoadDefinition.id ===
+      req.params.id
+    );
+  }
+});
+
+app.all("/api/v2/mastery/:id/characters", (req, res) => {
+  res.json({
+    timestamp: "2023-05-02T08:22:28.537Z",
+    playerId: `${req.params.id}`,
+    characterMasteries: [
+      {
+        characterAssetName: "CD_RockOni",
+        totalXp: 433,
+        maxTier: 10,
+        idxHighestTierCollected: -1,
+        currentTier: 0,
+        currentTierXp: 433,
+        xpToNextTier: 1500,
+      },
+    ],
   });
 });
 

@@ -1,0 +1,266 @@
+{
+  "timestamp": "2023-05-02T08:22:29.389Z",
+  "rookieRoadDefinition": {
+    "id": null,
+    "missionSets": [
+      {
+        "rewards": [{ "type": "FEATURE", "iconId": "", "flagName": "UI_Shop" }],
+        "missions": [
+          {
+            "title": "RookieRoadSet1Mission1Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "CURRENCY",
+                "currencyType": "SOFT",
+                "amount": 2500,
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Numeric",
+            "categoricalObjectives": [],
+            "numericObjectives": [
+              { "type": "GoalsAndAssists", "iconId": "", "target": 1 }
+            ]
+          },
+          {
+            "title": "RookieRoadSet1Mission2Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "CURRENCY",
+                "currencyType": "SOFT",
+                "amount": 2500,
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Numeric",
+            "categoricalObjectives": [],
+            "numericObjectives": [
+              { "type": "Strikes", "iconId": "", "target": 5 }
+            ]
+          },
+          {
+            "title": "RookieRoadSet1Mission3Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "CURRENCY",
+                "currencyType": "SOFT",
+                "amount": 2500,
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Numeric",
+            "categoricalObjectives": [],
+            "numericObjectives": [
+              { "type": "PowerOrbs", "iconId": "", "target": 1 }
+            ]
+          },
+          {
+            "title": "RookieRoadSet1Mission4Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "CURRENCY",
+                "currencyType": "SOFT",
+                "amount": 2500,
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Numeric",
+            "categoricalObjectives": [],
+            "numericObjectives": [
+              { "type": "Damage", "iconId": "", "target": 500 }
+            ]
+          }
+        ]
+      },
+      {
+        "rewards": [
+          { "type": "FEATURE", "iconId": "", "flagName": "GameMode_Ranked" }
+        ],
+        "missions": [
+          {
+            "title": "RookieRoadSet2Mission1Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "CURRENCY",
+                "currencyType": "SOFT",
+                "amount": 5000,
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Categorical",
+            "categoricalObjectives": [
+              {
+                "type": "PurchaseEntitlement",
+                "iconId": "",
+                "target": 1,
+                "targetValue": "Character"
+              }
+            ],
+            "numericObjectives": []
+          },
+          {
+            "title": "RookieRoadSet2Mission2Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "ENTITLEMENT",
+                "entitlementType": "Title",
+                "entitlementId": "TitleData_Competitor",
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Categorical",
+            "categoricalObjectives": [
+              {
+                "type": "VisitUISection",
+                "iconId": "",
+                "target": 1,
+                "targetValue": "Menu_Leaderboard"
+              }
+            ],
+            "numericObjectives": []
+          },
+          {
+            "title": "RookieRoadSet2Mission3Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "ENTITLEMENT",
+                "entitlementType": "Emoticon",
+                "entitlementId": "EmoticonData_JulietteHeart",
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Categorical",
+            "categoricalObjectives": [
+              {
+                "type": "VisitUISection",
+                "iconId": "",
+                "target": 1,
+                "targetValue": "Menu_Friends"
+              }
+            ],
+            "numericObjectives": []
+          },
+          {
+            "title": "RookieRoadSet2Mission4Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "ENTITLEMENT",
+                "entitlementType": "Emote",
+                "entitlementId": "EmoteData_Juliette_Delighted",
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Numeric",
+            "categoricalObjectives": [],
+            "numericObjectives": [
+              { "type": "PlayAsForward", "iconId": "", "target": 1 }
+            ]
+          },
+          {
+            "title": "RookieRoadSet2Mission5Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "ENTITLEMENT",
+                "entitlementType": "Emote",
+                "entitlementId": "EmoteData_Dubu_Delighted",
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Numeric",
+            "categoricalObjectives": [],
+            "numericObjectives": [
+              { "type": "PlayAsGoalie", "iconId": "", "target": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "rewards": [
+          {
+            "type": "CURRENCY",
+            "currencyType": "HARD",
+            "amount": 200,
+            "iconId": ""
+          }
+        ],
+        "missions": [
+          {
+            "title": "RookieRoadSet3Mission1Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "CURRENCY",
+                "currencyType": "SOFT",
+                "amount": 1000,
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Categorical",
+            "categoricalObjectives": [
+              {
+                "type": "VisitUISection",
+                "iconId": "",
+                "target": 1,
+                "targetValue": "Menu_Personalization"
+              }
+            ],
+            "numericObjectives": []
+          },
+          {
+            "title": "RookieRoadSet3Mission2Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "CURRENCY",
+                "currencyType": "SOFT",
+                "amount": 1000,
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Categorical",
+            "categoricalObjectives": [
+              {
+                "type": "VisitUISection",
+                "iconId": "",
+                "target": 1,
+                "targetValue": "Menu_ProfileSettings"
+              }
+            ],
+            "numericObjectives": []
+          },
+          {
+            "title": "RookieRoadSet3Mission3Desc",
+            "iconId": "",
+            "rewards": [
+              {
+                "type": "CURRENCY",
+                "currencyType": "SOFT",
+                "amount": 1000,
+                "iconId": ""
+              }
+            ],
+            "objectiveCategory": "Categorical",
+            "categoricalObjectives": [
+              {
+                "type": "VisitUISection",
+                "iconId": "",
+                "target": 1,
+                "targetValue": "Menu_StrikerAffinity"
+              }
+            ],
+            "numericObjectives": []
+          }
+        ]
+      }
+    ]
+  }
+}
