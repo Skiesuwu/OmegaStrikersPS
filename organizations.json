@@ -1,0 +1,894 @@
+{
+  "organizations": [
+    {
+      "organizationId": "6346ebca96259f1fd0749775",
+      "name": "HalloweenEventTeam1",
+      "logoId": "EmoticonData_Halloween_Duboo",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "hw2022ghost",
+      "entitlements": [
+        { "assetId": "EmoticonData_Halloween_Duboo", "type": "Emoticon" }
+      ],
+      "tags": ["halloween-2022-vs"]
+    },
+    {
+      "organizationId": "6346ebca96259f1fd0749776",
+      "name": "HalloweenEventTeam2",
+      "logoId": "EmoticonData_Halloween_Era_Coffin",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "hw2022vampire",
+      "entitlements": [
+        { "assetId": "EmoticonData_Halloween_Era_Coffin", "type": "Emoticon" }
+      ],
+      "tags": ["halloween-2022-vs"]
+    },
+    {
+      "organizationId": "6346ebca96259f1fd0749777",
+      "name": "HalloweenEventTeam3",
+      "logoId": "EmoticonData_Halloween_XWerewolf",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "hw2022werewolf",
+      "entitlements": [
+        { "assetId": "EmoticonData_Halloween_XWerewolf", "type": "Emoticon" }
+      ],
+      "tags": ["halloween-2022-vs"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896ac9c",
+      "name": "HOUSE FRUIT",
+      "logoId": "EmoticonData_MyMrFruit",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_MyMrFruit",
+      "entitlements": [
+        { "assetId": "EmoticonData_MyMrFruit", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "64016ea1d586c4fbf30eb133",
+      "name": "MusicEventTeamEDM",
+      "logoId": "EmoticonData_MusicVS_EdmOni1",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "musicvs2023edm",
+      "entitlements": [
+        { "assetId": "EmoticonData_JulietteComfy", "type": "Emoticon" }
+      ],
+      "tags": ["cr_event_2023_1"]
+    },
+    {
+      "organizationId": "64013572d586c4fbf30eb131",
+      "name": "MusicEventTeamRock",
+      "logoId": "EmoticonData_MusicVS_RockOni",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "musicvs2023rock",
+      "entitlements": [
+        { "assetId": "EmoticonData_EstelleFacepalm", "type": "Emoticon" }
+      ],
+      "tags": ["cr_event_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d4a",
+      "name": "SANNINSHOW",
+      "logoId": "EmoticonData_SanninShow",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_SanninShow",
+      "entitlements": [
+        { "assetId": "EmoticonData_SanninShow", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d4b",
+      "name": "SKJ VILLAGE",
+      "logoId": "EmoticonData_SKJVillage",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_SKJVillage",
+      "entitlements": [
+        { "assetId": "EmoticonData_SKJVillage", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d4c",
+      "name": "TEAM 1CESTREAM",
+      "logoId": "EmoticonData_IceStream",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_IceStream",
+      "entitlements": [
+        { "assetId": "EmoticonData_IceStream", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "632b3d9873f50c08a1042926",
+      "name": "Team 5up",
+      "logoId": "EmoticonData_Placeholder4",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_5up",
+      "entitlements": [
+        { "assetId": "EmoticonData_Placeholder4", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d59",
+      "name": "TEAM 5UP",
+      "logoId": "EmoticonData_5up",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_5up",
+      "entitlements": [{ "assetId": "EmoticonData_5up", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acbb",
+      "name": "TEAM AETHELSTAN",
+      "logoId": "EmoticonData_Aethelstan",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Aethelstan",
+      "entitlements": [
+        { "assetId": "EmoticonData_Aethelstan", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acaa",
+      "name": "TEAM ALPHARAD",
+      "logoId": "EmoticonData_Alpharad",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Alpharad",
+      "entitlements": [
+        { "assetId": "EmoticonData_Alpharad", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acad",
+      "name": "TEAM ASMONGLERS",
+      "logoId": "EmoticonData_AsmonGold",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_AsmonGold",
+      "entitlements": [
+        { "assetId": "EmoticonData_AsmonGold", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb0",
+      "name": "TEAM AUSTINFELT",
+      "logoId": "EmoticonData_AustinFelt",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_AustinFelt",
+      "entitlements": [
+        { "assetId": "EmoticonData_AustinFelt", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acab",
+      "name": "TEAM BEATEMUPS",
+      "logoId": "EmoticonData_BeatEmUps",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_BeatEmUps",
+      "entitlements": [
+        { "assetId": "EmoticonData_BeatEmUps", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824d4",
+      "name": "Team Blau",
+      "logoId": "EmoticonData_Blau3",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_blau",
+      "entitlements": [{ "assetId": "EmoticonData_Blau3", "type": "Emoticon" }],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d4d",
+      "name": "TEAM CAPIVARA",
+      "logoId": "EmoticonData_zEmerson",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_zEmerson",
+      "entitlements": [
+        { "assetId": "EmoticonData_zEmerson", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acaf",
+      "name": "TEAM CDAWGVA",
+      "logoId": "EmoticonData_CDawg",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_CDawg",
+      "entitlements": [{ "assetId": "EmoticonData_CDawg", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6328bc31d6436e265f1eb77f",
+      "name": "Team Code",
+      "logoId": "EmoticonData_Placeholder2",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_code",
+      "entitlements": [
+        { "assetId": "EmoticonData_Placeholder2", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824dc",
+      "name": "Team Comfy",
+      "logoId": "EmoticonData_Lily",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_comfy",
+      "entitlements": [{ "assetId": "EmoticonData_Lily", "type": "Emoticon" }],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acae",
+      "name": "TEAM COURAGE",
+      "logoId": "EmoticonData_Courage",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Courage",
+      "entitlements": [
+        { "assetId": "EmoticonData_Courage", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca2",
+      "name": "TEAM DRLUPO",
+      "logoId": "EmoticonData_DrLupo",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_DrLupo",
+      "entitlements": [
+        { "assetId": "EmoticonData_DrLupo", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824d5",
+      "name": "Team DrLupo (Legacy)",
+      "logoId": "EmoticonData_DrLupo",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_drlupo",
+      "entitlements": [
+        { "assetId": "EmoticonData_DrLupo", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824d6",
+      "name": "Team Ducky",
+      "logoId": "EmoticonData_Ducky",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_ducky",
+      "entitlements": [{ "assetId": "EmoticonData_Ducky", "type": "Emoticon" }],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d4e",
+      "name": "TEAM DUCKY",
+      "logoId": "EmoticonData_Ducky",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Ducky",
+      "entitlements": [{ "assetId": "EmoticonData_Ducky", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca5",
+      "name": "TEAM DYRUS",
+      "logoId": "EmoticonData_Dyrus",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Dyrus",
+      "entitlements": [{ "assetId": "EmoticonData_Dyrus", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824d7",
+      "name": "Team Dyrus (legacy)",
+      "logoId": "EmoticonData_Dyrus",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_dyrus",
+      "entitlements": [{ "assetId": "EmoticonData_Dyrus", "type": "Emoticon" }],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824d8",
+      "name": "Team Enviosity",
+      "logoId": "EmoticonData_Enviosity",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_enviosity",
+      "entitlements": [
+        { "assetId": "EmoticonData_Enviosity", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d5b",
+      "name": "TEAM EQWAAK",
+      "logoId": "EmoticonData_BlobboParty",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Eqwaak",
+      "entitlements": [
+        { "assetId": "EmoticonData_BlobboParty", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acba",
+      "name": "TEAM FUMI",
+      "logoId": "EmoticonData_Fumi",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Fumi",
+      "entitlements": [{ "assetId": "EmoticonData_Fumi", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896ac9e",
+      "name": "TEAM GAME GRUMPS",
+      "logoId": "EmoticonData_GameGrumps",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_GameGrumps",
+      "entitlements": [
+        { "assetId": "EmoticonData_GameGrumps", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824da",
+      "name": "Team Hafu",
+      "logoId": "EmoticonData_Hafu",
+      "emoticonIds": ["EmoticonData_Hafu"],
+      "restricted": false,
+      "joinCode": "team_hafu",
+      "entitlements": [{ "assetId": "EmoticonData_Hafu", "type": "Emoticon" }],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca7",
+      "name": "TEAM IKEEPITTACO",
+      "logoId": "EmoticonData_IKeepItTaco",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_IKeepItTaco",
+      "entitlements": [
+        { "assetId": "EmoticonData_IKeepItTaco", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824db",
+      "name": "Team IKeepItTaco (legacy)",
+      "logoId": "EmoticonData_IKeepItTaco",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_ikeepittaco",
+      "entitlements": [
+        { "assetId": "EmoticonData_IKeepItTaco", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb2",
+      "name": "TEAM JAPANALYSIS",
+      "logoId": "EmoticonData_Japanalysis",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Japanalysis",
+      "entitlements": [
+        { "assetId": "EmoticonData_Japanalysis", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d4f",
+      "name": "TEAM JROKEZ",
+      "logoId": "EmoticonData_Jrokez",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Jrokez",
+      "entitlements": [
+        { "assetId": "EmoticonData_Jrokez", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "632760d2c5aabadbbcc82504",
+      "name": "Team Leslers",
+      "logoId": "EmoticonData_Fuslie",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_leslers",
+      "entitlements": [
+        { "assetId": "EmoticonData_Fuslie", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6327cd13d6436e265f1eb760",
+      "name": "Team LJoga",
+      "logoId": "EmoticonData_Placeholder1",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_ljoga",
+      "entitlements": [
+        { "type": "Emoticon", "assetId": "EmoticonData_Placeholder1" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d50",
+      "name": "TEAM LJOGA",
+      "logoId": "EmoticonData_LJoga",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_LJoga",
+      "entitlements": [{ "assetId": "EmoticonData_LJoga", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896ac9d",
+      "name": "TEAM MANG0",
+      "logoId": "EmoticonData_Mang0",
+      "emoticonIds": ["EmoticonData_Mang0"],
+      "restricted": false,
+      "joinCode": "cv_2023_Mang0",
+      "entitlements": [{ "assetId": "EmoticonData_Mang0", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "632c7a6473f50c08a104292f",
+      "name": "Team Mang0 (legacy)",
+      "logoId": "EmoticonData_Placeholder5",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_mang0",
+      "entitlements": [
+        { "assetId": "EmoticonData_Placeholder5", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb8",
+      "name": "TEAM MELY",
+      "logoId": "EmoticonData_Mely",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Mely",
+      "entitlements": [{ "assetId": "EmoticonData_Mely", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63289292d6436e265f1eb76b",
+      "name": "Team Moist",
+      "logoId": "EmoticonData_Moist",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_moist",
+      "entitlements": [{ "assetId": "EmoticonData_Moist", "type": "Emoticon" }],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acac",
+      "name": "TEAM MOIST MOGULS",
+      "logoId": "EmoticonData_Ludwig",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Ludwig",
+      "entitlements": [
+        { "assetId": "EmoticonData_Ludwig", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6328bc6bd6436e265f1eb780",
+      "name": "Team Necrit",
+      "logoId": "EmoticonData_Placeholder3",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_necrit",
+      "entitlements": [
+        { "assetId": "EmoticonData_Placeholder3", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d51",
+      "name": "TEAM NECRIT",
+      "logoId": "EmoticonData_Necrit",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Necrit",
+      "entitlements": [
+        { "assetId": "EmoticonData_Necrit", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "632c7a6473f50c08a1042930",
+      "name": "Team Nemu",
+      "logoId": "EmoticonData_Placeholder6",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_nemu",
+      "entitlements": [
+        { "assetId": "EmoticonData_Placeholder6", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d52",
+      "name": "TEAM NEMU",
+      "logoId": "EmoticonData_Nemu",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Nemu",
+      "entitlements": [{ "assetId": "EmoticonData_Nemu", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca3",
+      "name": "TEAM NYANNERS",
+      "logoId": "EmoticonData_Nyanners",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Nyanners",
+      "entitlements": [
+        { "assetId": "EmoticonData_Nyanners", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d53",
+      "name": "TEAM OJ",
+      "logoId": "EmoticonData_TeamOJ",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_TeamOJ",
+      "entitlements": [
+        { "assetId": "EmoticonData_TeamOJ", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb1",
+      "name": "TEAM OKCODE",
+      "logoId": "EmoticonData_Code",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Code",
+      "entitlements": [{ "assetId": "EmoticonData_Code", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca4",
+      "name": "TEAM ONIMART",
+      "logoId": "EmoticonData_Onigiri",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Onigiri",
+      "entitlements": [
+        { "assetId": "EmoticonData_Onigiri", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824d9",
+      "name": "Team Onimart (legacy)",
+      "logoId": "EmoticonData_Onigiri",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_onimart",
+      "entitlements": [
+        { "assetId": "EmoticonData_Onigiri", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d54",
+      "name": "TEAM QUESO",
+      "logoId": "EmoticonData_TeamQueso",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_TeamQueso",
+      "entitlements": [
+        { "assetId": "EmoticonData_TeamQueso", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d55",
+      "name": "TEAM RADER",
+      "logoId": "EmoticonData_Radda",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Radda",
+      "entitlements": [{ "assetId": "EmoticonData_Radda", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca9",
+      "name": "TEAM RAKIN",
+      "logoId": "EmoticonData_Rakin",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Rakin",
+      "entitlements": [{ "assetId": "EmoticonData_Rakin", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824de",
+      "name": "Team Rakin (Legacy)",
+      "logoId": "EmoticonData_Rakin",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_rakin",
+      "entitlements": [{ "assetId": "EmoticonData_Rakin", "type": "Emoticon" }],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca8",
+      "name": "TEAM RAYDITZ",
+      "logoId": "EmoticonData_Rayditz",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Rayditz",
+      "entitlements": [
+        { "assetId": "EmoticonData_Rayditz", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824df",
+      "name": "Team Rayditz (Legacy)",
+      "logoId": "EmoticonData_Rayditz",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_rayditz",
+      "entitlements": [
+        { "assetId": "EmoticonData_Rayditz", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb7",
+      "name": "TEAM ROMAIN",
+      "logoId": "EmoticonData_RomainLive",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_RomainLive",
+      "entitlements": [
+        { "assetId": "EmoticonData_RomainLive", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d5c",
+      "name": "TEAM RRAENEE",
+      "logoId": "EmoticonData_BlobboLove",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_rraenee",
+      "entitlements": [
+        { "assetId": "EmoticonData_BlobboLove", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896ac9f",
+      "name": "TEAM RUBBERROSS",
+      "logoId": "EmoticonData_Ross",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Ross",
+      "entitlements": [{ "assetId": "EmoticonData_Ross", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d56",
+      "name": "TEAM SHAKA",
+      "logoId": "EmoticonData_Shaka",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Shaka",
+      "entitlements": [{ "assetId": "EmoticonData_Shaka", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d57",
+      "name": "TEAM SONHO",
+      "logoId": "EmoticonData_Sonho",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Sonho",
+      "entitlements": [{ "assetId": "EmoticonData_Sonho", "type": "Emoticon" }],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb6",
+      "name": "TEAM SP4ZIE",
+      "logoId": "EmoticonData_Sp4zie",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Sp4zie",
+      "entitlements": [
+        { "assetId": "EmoticonData_Sp4zie", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca0",
+      "name": "TEAM SYKKUNO",
+      "logoId": "EmoticonData_Sykkuno",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Sykkuno",
+      "entitlements": [
+        { "assetId": "EmoticonData_Sykkuno", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824e0",
+      "name": "Team Sykkuno (Legacy)",
+      "logoId": "EmoticonData_Sykkuno",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_sykkuno",
+      "entitlements": [
+        { "assetId": "EmoticonData_Sykkuno", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb9",
+      "name": "TEAM TECHZZ",
+      "logoId": "EmoticonData_Techzz",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Techzz",
+      "entitlements": [
+        { "assetId": "EmoticonData_Techzz", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824e1",
+      "name": "Team Tori",
+      "logoId": "EmoticonData_Tori",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_tori",
+      "entitlements": [{ "assetId": "EmoticonData_Tori", "type": "Emoticon" }],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca6",
+      "name": "TEAM TUONTO",
+      "logoId": "EmoticonData_Tuonto",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Tuonto",
+      "entitlements": [
+        { "assetId": "EmoticonData_Tuonto", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824e2",
+      "name": "Team Tuonto (legacy)",
+      "logoId": "EmoticonData_Tuonto",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_tuonto",
+      "entitlements": [
+        { "assetId": "EmoticonData_Tuonto", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb4",
+      "name": "TEAM UTHENERA",
+      "logoId": "EmoticonData_Uthenera",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Uthenera",
+      "entitlements": [
+        { "assetId": "EmoticonData_Uthenera", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb5",
+      "name": "TEAM VERNIAS",
+      "logoId": "EmoticonData_Vernias",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Vernias",
+      "entitlements": [
+        { "assetId": "EmoticonData_Vernias", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "63274c1fc5aabadbbcc824e3",
+      "name": "Team Vienna",
+      "logoId": "EmoticonData_Vienna",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "team_vienna",
+      "entitlements": [
+        { "assetId": "EmoticonData_Vienna", "type": "Emoticon" }
+      ],
+      "tags": ["creator-versus-beta-2022"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896aca1",
+      "name": "TEAM YAKKOCMN",
+      "logoId": "EmoticonData_Yakkocmm",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_Yakkocmm",
+      "entitlements": [
+        { "assetId": "EmoticonData_Yakkocmm", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6421b8509a8d670f8896acb3",
+      "name": "TEAM ZENTREYA",
+      "logoId": "EmoticonData_ZentreyaSalt",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_ZentreyaSalt",
+      "entitlements": [
+        { "assetId": "EmoticonData_ZentreyaSalt", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    },
+    {
+      "organizationId": "6440b6b769716665a09b9d58",
+      "name": "UN STRIKERS",
+      "logoId": "EmoticonData_UNStrikers",
+      "emoticonIds": [],
+      "restricted": false,
+      "joinCode": "cv_2023_UNStrikers",
+      "entitlements": [
+        { "assetId": "EmoticonData_UNStrikers", "type": "Emoticon" }
+      ],
+      "tags": ["creator_versus_2023_1"]
+    }
+  ]
+}

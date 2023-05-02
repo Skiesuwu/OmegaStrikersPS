@@ -1,0 +1,117 @@
+{
+  "characterMasteryDefinition": {
+    "tiers": [
+      {
+        "xpToNextTier": 1500,
+        "rewards": [
+          {
+            "type": "ENTITLEMENT",
+            "entitlementType": "Nameplate",
+            "entitlementId": "NameplateData_{CharacterId}Mastery",
+            "iconId": ""
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 3000,
+        "rewards": [
+          {
+            "type": "CURRENCY",
+            "currencyType": "SOFT",
+            "amount": 3000,
+            "iconId": "T_IconSoftCurrency"
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 6000,
+        "rewards": [
+          {
+            "type": "ENTITLEMENT",
+            "entitlementType": "Emoticon",
+            "entitlementId": "EmoticonData_{CharacterId}Mastery",
+            "iconId": ""
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 10000,
+        "rewards": [
+          {
+            "type": "CURRENCY",
+            "currencyType": "COSMETIC",
+            "amount": 20,
+            "iconId": "T_IconCosmeticCurrency"
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 20000,
+        "rewards": [
+          {
+            "type": "ENTITLEMENT",
+            "entitlementType": "Nameplate",
+            "entitlementId": "NameplateData_{CharacterId}MasteryPremium",
+            "iconId": ""
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 35000,
+        "rewards": [
+          {
+            "type": "ENTITLEMENT",
+            "entitlementType": "Emoticon",
+            "entitlementId": "EmoticonData_{CharacterId}MasteryAnimated",
+            "iconId": ""
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 70000,
+        "rewards": [
+          {
+            "type": "CURRENCY",
+            "currencyType": "COSMETIC",
+            "amount": 50,
+            "iconId": "T_IconCosmeticCurrency"
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 100000,
+        "rewards": [
+          {
+            "type": "ENTITLEMENT",
+            "entitlementType": "IdlePose",
+            "entitlementId": "IdlePoseData_{CharacterId}Mastery",
+            "iconId": ""
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 150000,
+        "rewards": [
+          {
+            "type": "ENTITLEMENT",
+            "entitlementType": "Title",
+            "entitlementId": "TitleData_{CharacterId}Mastery",
+            "iconId": ""
+          }
+        ]
+      },
+      {
+        "xpToNextTier": 200000,
+        "rewards": [
+          {
+            "type": "ENTITLEMENT",
+            "entitlementType": "GoalBorder",
+            "entitlementId": "GoalBorderData_{CharacterId}Mastery",
+            "iconId": ""
+          }
+        ]
+      },
+      { "xpToNextTier": 0, "rewards": [] }
+    ]
+  }
+}

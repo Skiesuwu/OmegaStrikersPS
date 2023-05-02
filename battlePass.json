@@ -1,0 +1,763 @@
+{
+  "timestamp": "",
+  "battlePasses": [
+    {
+      "id": "",
+      "levels": [
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 5000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Skin",
+              "entitlementId": "SD_NimbleBlaster_Hitman",
+              "iconId": "T_UI_Portrait_CloseUp_NimbleBlaster_Hitman"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 5000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_JulietteCopium",
+              "iconId": "T_JulietteCopium-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 5000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Title",
+              "entitlementId": "TitleData_Trailblazer",
+              "iconId": "T_UI_RewardIcon_Title"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 5000,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "AFFINITY",
+              "amount": 1,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 5000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "GoalExplosion",
+              "entitlementId": "GoalExplosionData_Fireworks",
+              "iconId": "T_UI_GoalExplosion_Firework"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 5500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Nameplate",
+              "entitlementId": "NameplateData_FireworkShow",
+              "iconId": "T_fireworkShow_nameplate_large"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 5500,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "COSMETIC",
+              "amount": 10,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 5500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Title",
+              "entitlementId": "TitleData_KOChamp",
+              "iconId": "T_UI_RewardIcon_Title"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 5500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Nameplate",
+              "entitlementId": "NameplateData_DrekarsFury",
+              "iconId": "T_DrekarsFury_Nameplate_Large"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 5500,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "SOFT",
+              "amount": 1000,
+              "iconId": "T_IconCharacter"
+            }
+          ],
+          "timedRewards": [
+            {
+              "expiresAt": "2023-05-11T15:00:00.000Z",
+              "rewards": [
+                {
+                  "type": "ENTITLEMENT",
+                  "entitlementType": "Skin",
+                  "entitlementId": "SD_NimbleBlaster_Fire",
+                  "iconId": "T_IconSkin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 6000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_XGigachad",
+              "iconId": "T_XGigaChad-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 6000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Nameplate",
+              "entitlementId": "NameplateData_CafeJuno",
+              "iconId": "T_CafeJuno_nameplate_large"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 6000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Skin",
+              "entitlementId": "SD_TempoSniper_Orbital",
+              "iconId": "T_UI_Portrait_CloseUp_TempoSniper_Orbital"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 6000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_AtlasThumbsUp",
+              "iconId": "T_AtlasNice-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 6000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Title",
+              "entitlementId": "TitleData_Cringe",
+              "iconId": "T_UI_RewardIcon_Title"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 6500,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "AFFINITY",
+              "amount": 1,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 6500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_EraRainDrop",
+              "iconId": "T_EraRaindropSad-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 6500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Nameplate",
+              "entitlementId": "NameplateData_KaisBarrage",
+              "iconId": "T_KaiGigaBlast_nameplate_large"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 6500,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "COSMETIC",
+              "amount": 10,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 6500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_RuneClone",
+              "iconId": "T_RuneClone-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 7000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Nameplate",
+              "entitlementId": "NameplateData_EraStalking",
+              "iconId": "T_EraStalking_nameplate_large"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 7000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_AsherPog",
+              "iconId": "T_AsherPog-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 7000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Title",
+              "entitlementId": "TitleData_Cracked",
+              "iconId": "T_UI_RewardIcon_Title"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 7000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_DrekarBusiness",
+              "iconId": "T_DrekarBusiness-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 7000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_LunaWizard",
+              "iconId": "T_LunaWizardOrb-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 7500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Nameplate",
+              "entitlementId": "NameplateData_ZentarosBlade",
+              "iconId": "T_ZentarosBlade_Nameplate_Large"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 7500,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "AFFINITY",
+              "amount": 1,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 7500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_EraIsThis",
+              "iconId": "T_EraIsThis-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 7500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_LunaCry",
+              "iconId": "T_LunaCry-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 7500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Title",
+              "entitlementId": "TitleData_SigmaStriker",
+              "iconId": "T_UI_RewardIcon_Title"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 8000,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "COSMETIC",
+              "amount": 10,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 8000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_AimiCry",
+              "iconId": "T_AimiCry-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 8000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_ZentaroDeadge",
+              "iconId": "T_ZentaroDeadge-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 8000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_RuneYouAreMe",
+              "iconId": "T_RuneYou-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 8000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Skin",
+              "entitlementId": "SD_ManipulatingMastermind_StreetArtist",
+              "iconId": "T_UI_Portrait_CloseUp_ManipulatingMastermind_Default_StreetArtist"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 8500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_RasmusPray",
+              "iconId": "T_RasmusPray-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 8500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "GoalExplosion",
+              "entitlementId": "GoalExplosionData_Graffiti",
+              "iconId": "T_UI_GoalExplosion_Wildstyle"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 8500,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "AFFINITY",
+              "amount": 1,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 8500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_AtlasThink",
+              "iconId": "T_AtlasThink-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 8500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_AimiNoted",
+              "iconId": "T_AimiNoted-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 9000,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "COSMETIC",
+              "amount": 10,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 9000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Skin",
+              "entitlementId": "SD_ManipulatingMastermind_StreetArtist_Neon",
+              "iconId": "T_UI_Portrait_CloseUp_ManipulatingMastermind_Default_StreetArtist"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 9000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Title",
+              "entitlementId": "TitleData_BuiltDifferent",
+              "iconId": "T_UI_RewardIcon_Title"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 9000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "GoalExplosion",
+              "entitlementId": "GoalExplosionData_Glitch",
+              "iconId": "T_UI_GoalExplosion_Glitch"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 9000,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "AFFINITY",
+              "amount": 1,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 9500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_AimiSweat",
+              "iconId": "T_AimiSweat-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 9500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Emoticon",
+              "entitlementId": "EmoticonData_LunaGlasses",
+              "iconId": "T_LunaGlasses-512x512"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 9500,
+          "rewards": [
+            {
+              "type": "CURRENCY",
+              "currencyType": "COSMETIC",
+              "amount": 10,
+              "iconId": "T_IconSoftCurrency"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": false,
+          "tier": "Free",
+          "xpRequired": 9500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Title",
+              "entitlementId": "TitleData_RiseandGrind",
+              "iconId": "T_UI_RewardIcon_Title"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 9500,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "GoalExplosion",
+              "entitlementId": "GoalExplosionData_RainDrop",
+              "iconId": "T_UI_GoalExplosion_RainDrop"
+            }
+          ],
+          "timedRewards": []
+        },
+        {
+          "premium": true,
+          "tier": "Premium",
+          "xpRequired": 250000,
+          "rewards": [
+            {
+              "type": "ENTITLEMENT",
+              "entitlementType": "Skin",
+              "entitlementId": "SD_ManipulatingMastermind_StreetArtist_Sakura",
+              "iconId": "T_UI_Portrait_CloseUp_ManipulatingMastermind_Default_StreetArtist"
+            }
+          ],
+          "timedRewards": []
+        }
+      ],
+      "expiresAt": "2023-08-27T00:07:59.000Z",
+      "prices": {
+        "buyLevel": { "currencyType": "HARD", "price": 100 },
+        "upgrades": [
+          {
+            "price": { "currencyType": "HARD", "price": 1000 },
+            "fromTier": "Free",
+            "toTier": "Premium"
+          },
+          {
+            "price": { "currencyType": "HARD", "price": 1500 },
+            "fromTier": "Free",
+            "toTier": "Bundle"
+          },
+          {
+            "price": { "currencyType": "HARD", "price": 500 },
+            "fromTier": "Premium",
+            "toTier": "Bundle"
+          }
+        ]
+      },
+      "bundleEntitlements": [
+        {
+          "entitlementId": "NameplateData_AtlasLunaStars",
+          "entitlementType": "Nameplate"
+        }
+      ]
+    }
+  ]
+}

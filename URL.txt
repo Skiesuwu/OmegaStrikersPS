@@ -1,0 +1,2 @@
+BASEAPIURL = https://prometheus-proxy.odysseyinteractive.gg/api/v1
+BASEURL = https://prometheus-proxy.odysseyinteractive.gg

@@ -1,0 +1,215 @@
+{
+  "timestamp": "2023-05-02T03:49:45.507Z",
+  "inAppPurchases": [
+    {
+      "currencyRewards": {
+        "hard": 2000,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "description": "",
+      "entitlementRewards": [],
+      "everyTimeCurrencyBonusPercent": {
+        "hard": 15,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "firstTimeCurrencyBonusPercent": {
+        "hard": 0,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "hasPurchaseLimit": true,
+      "name": "2000 Hard Currency",
+      "pricingTier": "20",
+      "purchaseLimit": 0,
+      "showBundleName": true,
+      "sku": "hc2000",
+      "thumbnailId": "Thumbnail_200HardCurrency",
+      "steamItemId": 1,
+      "rarity": "Tier1",
+      "displayWide": true,
+      "displayOrder": 5,
+      "isFeatured": true,
+      "alwaysShowNew": true
+    },
+    {
+      "currencyRewards": {
+        "hard": 500,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "description": "",
+      "entitlementRewards": [],
+      "everyTimeCurrencyBonusPercent": {
+        "hard": 0,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "firstTimeCurrencyBonusPercent": {
+        "hard": 0,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "hasPurchaseLimit": true,
+      "name": "500 Hard Currency",
+      "pricingTier": "5",
+      "purchaseLimit": 0,
+      "showBundleName": true,
+      "sku": "hc500",
+      "thumbnailId": "Thumbnail_50HardCurrency",
+      "steamItemId": 2,
+      "rarity": "Tier1",
+      "displayWide": true,
+      "displayOrder": 3,
+      "isFeatured": true,
+      "alwaysShowNew": true
+    },
+    {
+      "currencyRewards": {
+        "hard": 1000,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "description": "",
+      "entitlementRewards": [],
+      "everyTimeCurrencyBonusPercent": {
+        "hard": 10,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "firstTimeCurrencyBonusPercent": {
+        "hard": 0,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "hasPurchaseLimit": true,
+      "name": "1000 Hard Currency",
+      "pricingTier": "10",
+      "purchaseLimit": 0,
+      "showBundleName": true,
+      "sku": "hc1000",
+      "thumbnailId": "Thumbnail_100HardCurrency",
+      "steamItemId": 3,
+      "rarity": "Tier1",
+      "displayWide": true,
+      "displayOrder": 4,
+      "isFeatured": true,
+      "alwaysShowNew": true
+    },
+    {
+      "currencyRewards": {
+        "hard": 10000,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "description": "",
+      "entitlementRewards": [],
+      "everyTimeCurrencyBonusPercent": {
+        "hard": 30,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "firstTimeCurrencyBonusPercent": {
+        "hard": 0,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "hasPurchaseLimit": true,
+      "name": "10000 Hard Currency",
+      "pricingTier": "60",
+      "purchaseLimit": 0,
+      "showBundleName": true,
+      "sku": "hc10000",
+      "thumbnailId": "Thumbnail_1000HardCurrency",
+      "steamItemId": 4,
+      "rarity": "Tier1",
+      "displayWide": true,
+      "displayOrder": 8,
+      "isFeatured": true,
+      "alwaysShowNew": true
+    },
+    {
+      "currencyRewards": {
+        "hard": 5000,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "description": "",
+      "entitlementRewards": [],
+      "everyTimeCurrencyBonusPercent": {
+        "hard": 25,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "firstTimeCurrencyBonusPercent": {
+        "hard": 0,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "hasPurchaseLimit": true,
+      "name": "5000 Hard Currency",
+      "pricingTier": "50",
+      "purchaseLimit": 0,
+      "showBundleName": true,
+      "sku": "hc5000",
+      "thumbnailId": "Thumbnail_500HardCurrency",
+      "steamItemId": 6,
+      "rarity": "Tier1",
+      "displayWide": true,
+      "displayOrder": 7,
+      "isFeatured": true,
+      "alwaysShowNew": true
+    },
+    {
+      "currencyRewards": {
+        "hard": 3500,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "description": "",
+      "entitlementRewards": [],
+      "everyTimeCurrencyBonusPercent": {
+        "hard": 20,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "firstTimeCurrencyBonusPercent": {
+        "hard": 0,
+        "soft": 0,
+        "cosmetic": 0,
+        "affinity": 0
+      },
+      "hasPurchaseLimit": true,
+      "name": "3500 Hard Currency",
+      "pricingTier": "35",
+      "purchaseLimit": 0,
+      "showBundleName": true,
+      "sku": "hc3500",
+      "thumbnailId": "Thumbnail_350HardCurrency",
+      "steamItemId": 8,
+      "rarity": "Tier1",
+      "displayWide": true,
+      "displayOrder": 6,
+      "isFeatured": true,
+      "alwaysShowNew": true
+    }
+  ]
+}

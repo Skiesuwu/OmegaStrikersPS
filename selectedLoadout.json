@@ -1,0 +1,17 @@
+{
+  "timestamp": "2023-05-02T07:18:11.733Z",
+  "hasSelectedLoadout": true,
+  "selectedLoadout": {
+    "slotId": "CD_FlexibleBrawlerDefault",
+    "characterAssetId": "CD_FlexibleBrawler",
+    "index": -1,
+    "allowedRoles": ["Forward"],
+    "trainingAssetIds": [
+      "TD_EmpoweredHitsBuff",
+      "TD_StrikeRockSpeedUp",
+      "TD_PrimaryAbilityCooldownReduction"
+    ],
+    "customName": "Default Forward",
+    "banCharacterAssetId": null
+  }
+}

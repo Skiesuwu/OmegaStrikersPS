@@ -1,0 +1,10 @@
+{
+  "error": {
+    "message": "Cannot find battle pass instance",
+    "type": "Error",
+    "code": 92,
+    "error_user_title": "something_went_wrong_title",
+    "error_user_msg": "something_went_wrong_body",
+    "trace_id": "e17a9821-2d36-4981-adfb-2436dde138db"
+  }
+}
