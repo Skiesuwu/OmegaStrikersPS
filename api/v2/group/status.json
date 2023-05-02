@@ -1,1 +1,45 @@
-{"timestamp":"2023-05-02T08:22:26.409Z","isInGroup":true,"group":{"groupId":"1c6eb691-33b9-4547-9fb7-6ce85d414fa3","groupLeaderPlayerId":"6450884b64af0423d2787b73","queue":"queue:tutorial","lobbyCode":"","spectating":false,"conflictErrors":[],"groupWarnings":[],"players":[{"username":"Skiesuwu","playerId":"6450884b64af0423d2787b73","logoId":"EmoticonData_DefaultThumbsUp","title":"","nameplateId":"NameplateData_Basic","emoticonId":"EmoticonData_DefaultThumbsUp","titleId":"TitleData_None","tags":[],"platformIds":{},"masteryLevel":1,"currentPlatform":"Steam"}],"playerLoadouts":[{"playerId":"6450884b64af0423d2787b73","loadout":{"index":0,"slotId":"GroupMemberLoadout","allowedRoles":["Forward","Goalie"],"customName":"GroupMemberLoadout","characterAssetId":"CD_SpeedySkirmisher","banCharacterAssetId":null,"trainingAssetIds":[]},"equippedSkinId":"","equippedIdlePoseId":""}],"platformIds":[]}}
+{
+  "timestamp": "2023-05-02T08:22:26.409Z",
+  "isInGroup": true,
+  "group": {
+    "groupId": "1c6eb691-33b9-4547-9fb7-6ce85d414fa3",
+    "groupLeaderPlayerId": "6450884b64af0423d2787b73",
+    "queue": "queue:tutorial",
+    "lobbyCode": "",
+    "spectating": false,
+    "conflictErrors": [],
+    "groupWarnings": [],
+    "players": [
+      {
+        "username": "Skiesuwu",
+        "playerId": "6450884b64af0423d2787b73",
+        "logoId": "EmoticonData_DefaultThumbsUp",
+        "title": "",
+        "nameplateId": "NameplateData_Basic",
+        "emoticonId": "EmoticonData_DefaultThumbsUp",
+        "titleId": "TitleData_None",
+        "tags": [],
+        "platformIds": {},
+        "masteryLevel": 1,
+        "currentPlatform": "Steam"
+      }
+    ],
+    "playerLoadouts": [
+      {
+        "playerId": "6450884b64af0423d2787b73",
+        "loadout": {
+          "index": 0,
+          "slotId": "GroupMemberLoadout",
+          "allowedRoles": ["Flex", "Goalie"],
+          "customName": "GroupMemberLoadout",
+          "characterAssetId": "CD_SpeedySkirmisher",
+          "banCharacterAssetId": null,
+          "trainingAssetIds": []
+        },
+        "equippedSkinId": "",
+        "equippedIdlePoseId": ""
+      }
+    ],
+    "platformIds": []
+  }
+}

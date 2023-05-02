@@ -3,67 +3,67 @@
   "presets": [
     {
       "characterAssetName": "CD_ManipulatingMastermind",
-      "forwardLoadoutSlotId": "CD_ManipulatingMastermindDefault",
+      "FlexLoadoutSlotId": "CD_ManipulatingMastermindDefault",
       "goalieLoadoutSlotId": "CD_ManipulatingMastermindDefaultAlternate"
     },
     {
       "characterAssetName": "CD_TempoSniper",
-      "forwardLoadoutSlotId": "CD_TempoSniperDefault",
+      "FlexLoadoutSlotId": "CD_TempoSniperDefault",
       "goalieLoadoutSlotId": "CD_TempoSniperDefaultAlternate"
     },
     {
       "characterAssetName": "CD_CleverSummoner",
-      "forwardLoadoutSlotId": "CD_CleverSummonerDefault",
+      "FlexLoadoutSlotId": "CD_CleverSummonerDefault",
       "goalieLoadoutSlotId": "CD_CleverSummonerDefaultAlternate"
     },
     {
       "characterAssetName": "CD_HulkingBeast",
-      "forwardLoadoutSlotId": "CD_HulkingBeastDefault",
+      "FlexLoadoutSlotId": "CD_HulkingBeastDefault",
       "goalieLoadoutSlotId": "CD_HulkingBeastDefaultAlternate"
     },
     {
       "characterAssetName": "CD_AngelicSupport",
-      "forwardLoadoutSlotId": "CD_AngelicSupportDefaultAlternate",
+      "FlexLoadoutSlotId": "CD_AngelicSupportDefaultAlternate",
       "goalieLoadoutSlotId": "CD_AngelicSupportDefault"
     },
     {
       "characterAssetName": "CD_StalwartProtector",
-      "forwardLoadoutSlotId": "CD_StalwartProtectorDefaultAlternate",
+      "FlexLoadoutSlotId": "CD_StalwartProtectorDefaultAlternate",
       "goalieLoadoutSlotId": "CD_StalwartProtectorDefault"
     },
     {
       "characterAssetName": "CD_FlexibleBrawler",
-      "forwardLoadoutSlotId": "CD_FlexibleBrawlerDefault",
+      "FlexLoadoutSlotId": "CD_FlexibleBrawlerDefault",
       "goalieLoadoutSlotId": "CD_FlexibleBrawlerDefaultAlternate"
     },
     {
       "characterAssetName": "CD_NimbleBlaster",
-      "forwardLoadoutSlotId": "CD_NimbleBlasterDefault",
+      "FlexLoadoutSlotId": "CD_NimbleBlasterDefault",
       "goalieLoadoutSlotId": "CD_NimbleBlasterDefaultAlternate"
     },
     {
       "characterAssetName": "CD_ChaoticRocketeer",
-      "forwardLoadoutSlotId": "CD_ChaoticRocketeerDefaultAlternate",
+      "FlexLoadoutSlotId": "CD_ChaoticRocketeerDefaultAlternate",
       "goalieLoadoutSlotId": "CD_ChaoticRocketeerDefault"
     },
     {
       "characterAssetName": "CD_EmpoweringEnchanter",
-      "forwardLoadoutSlotId": "CD_EmpoweringEnchanterDefaultAlternate",
+      "FlexLoadoutSlotId": "CD_EmpoweringEnchanterDefaultAlternate",
       "goalieLoadoutSlotId": "CD_EmpoweringEnchanterDefault"
     },
     {
       "characterAssetName": "CD_SpeedySkirmisher",
-      "forwardLoadoutSlotId": "CD_SpeedySkirmisherDefault",
+      "FlexLoadoutSlotId": "CD_SpeedySkirmisherDefault",
       "goalieLoadoutSlotId": "CD_SpeedySkirmisherDefaultAlternate"
     },
     {
       "characterAssetName": "CD_MagicalPlaymaker",
-      "forwardLoadoutSlotId": "CD_MagicalPlaymakerDefault",
+      "FlexLoadoutSlotId": "CD_MagicalPlaymakerDefault",
       "goalieLoadoutSlotId": "CD_MagicalPlaymakerDefaultAlternate"
     },
     {
       "characterAssetName": "CD_ShieldUser",
-      "forwardLoadoutSlotId": "CD_ShieldUserDefault",
+      "FlexLoadoutSlotId": "CD_ShieldUserDefault",
       "goalieLoadoutSlotId": "CD_ShieldUserDefaultAlternate"
     }
   ]

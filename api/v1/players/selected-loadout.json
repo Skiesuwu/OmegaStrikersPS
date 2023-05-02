@@ -1,1 +1,13 @@
-{"timestamp":"2023-05-02T08:22:27.069Z","hasSelectedLoadout":true,"selectedLoadout":{"slotId":"CD_FlexibleBrawlerDefault","characterAssetId":"CD_FlexibleBrawler","index":-1,"allowedRoles":["Forward"],"trainingAssetIds":["TD_EmpoweredHitsBuff","TD_StrikeRockSpeedUp","TD_PrimaryAbilityCooldownReduction"],"customName":"Default Forward","banCharacterAssetId":null}}
+{
+  "timestamp": "2023-05-02T08:22:27.069Z",
+  "hasSelectedLoadout": true,
+  "selectedLoadout": {
+    "slotId": "CD_UmbrellaUser",
+    "characterAssetId": "CD_UmbrellaUser",
+    "index": -1,
+    "allowedRoles": ["Flex"],
+    "trainingAssetIds": [],
+    "customName": "Default Flex",
+    "banCharacterAssetId": null
+  }
+}

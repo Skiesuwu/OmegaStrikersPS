@@ -161,7 +161,7 @@
             "objectiveCategory": "Numeric",
             "categoricalObjectives": [],
             "numericObjectives": [
-              { "type": "PlayAsForward", "iconId": "", "target": 1 }
+              { "type": "PlayAsFlex", "iconId": "", "target": 1 }
             ]
           },
           {
