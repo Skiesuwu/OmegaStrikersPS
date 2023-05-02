@@ -28,72 +28,72 @@ app.all("/api/v1/friends/sent-invite", (req, res) => {
 
 app.all("/api/v1/me", (req, res) => {
   console.log("does it work?");
-  res.json(require("./me.json"));
+  res.json(require("./data/me.json"));
 });
 
 app.all("/api/v1/players/loadouts/role-presets", (req, res) => {
   console.log("does it work?");
-  res.json(require("./rolePresets.json"));
+  res.json(require("./data/rolePresets.json"));
 });
 
 app.all("/api/v1/players/matchmaking-constraints", (req, res) => {
-  res.json(require("./matchmakingConstraints.json"));
+  res.json(require("./data/matchmakingConstraints.json"));
 });
 
 app.all("/api/v1/players/selected-loadout", (req, res) => {
-  res.json(require("./selectedLoadout.json"));
+  res.json(require("./data/selectedLoadout.json"));
 });
 
 app.all("/api/v1/players/feature-flags", (req, res) => {
-  res.json(require("./featureFlags.json"));
+  res.json(require("./data/featureFlags.json"));
 });
 
 app.all("/api/v1/regions", (req, res) => {
-  res.json(require("./regions.json"));
+  res.json(require("./data/regions.json"));
 });
 
 app.all("/api/v1/content/characters", (req, res) => {
-  res.json(require("./characters.json"));
+  res.json(require("./data/characters.json"));
 });
 
 app.all("/api/v1/content/power-ups", (req, res) => {
-  res.json(require("./powerUps.json"));
+  res.json(require("./data/powerUps.json"));
 });
 
 app.all("/api/v1/content/emoticons", (req, res) => {
-  res.json(require("./emoticons.json"));
+  res.json(require("./data/emoticons.json"));
 });
 
 app.all("/api/v1/store/steam/prices", (req, res) => {
-  res.json(require("./steamPrices.json"));
+  res.json(require("./data/steamPrices.json"));
 });
 
 app.all("/api/v1/entitlements", (req, res) => {
-  res.json(require("./entitlements.json"));
+  res.json(require("./data/entitlements.json"));
 });
 
 app.all("/api/v1/entitlements/equipped", (req, res) => {
-  res.json(require("./entitlementsEquipped.json"));
+  res.json(require("./data/entitlementsEquipped.json"));
 });
 
 app.all("/api/v1/catalog", (req, res) => {
-  res.json(require("./catalog.json"));
+  res.json(require("./data/catalog.json"));
 });
 
 app.all("/api/v1/organizations", (req, res) => {
-  res.json(require("./organizations.json"));
+  res.json(require("./data/organizations.json"));
 });
 
 app.all("/api/v1/store", (req, res) => {
-  res.json(require("./store.json"));
+  res.json(require("./data/store.json"));
 });
 
 app.all("/api/v1/wallet", (req, res) => {
-  res.json(require("./wallet.json"));
+  res.json(require("./data/wallet.json"));
 });
 
 app.all("/api/v1/tournament/player-status", (req, res) => {
-  res.json(require("./playerStatus.json"));
+  res.json(require("./data/playerStatus.json"));
 });
 
 app.all("/api/v1/login/token", (req, res) => {
@@ -280,11 +280,11 @@ app.all("/api/v2/daily-login/new-player-daily-login", (req, res) => {
 });
 
 app.all("/api/v2/battle-pass", (req, res) => {
-  res.json(require("./battlePass.json"));
+  res.json(require("./data/battlePass.json"));
 });
 
 app.all("/api/v2/battle-pass/progress", (req, res) => {
-  res.json(require("./bpProgress.json"));
+  res.json(require("./data/bpProgress.json"));
 });
 
 app.all("/api/v1/ranked/leaderboard/search/:id", (req, res) => {
@@ -296,11 +296,11 @@ app.post("/api/v2/battle-pass/begin", (req, res) => {
 });
 
 app.all("/api/v2/battle-pass/missions", (req, res) => {
-  res.json(require("./bpMissions.json"));
+  res.json(require("./data/bpMissions.json"));
 });
 
 app.all("/api/v2/mastery/characters/definitions", (req, res) => {
-  res.json(require(require("./characterDefininations.json")));
+  res.json(require(require("./data/characterDefininations.json")));
 });
 
 app.all("/api/v1/mastery/:id/player", (req, res) => {
@@ -327,11 +327,11 @@ app.all("/api/v1/mastery/:id/characters", (req, res) => {
 });
 
 app.all("/api/v1/ranked/season/current", (req, res) => {
-  res.json(require("./seasonCurrent.json"));
+  res.json(require("./data/seasonCurrent.json"));
 });
 
 app.all("/api/v2/rookie-road/progress", (req, res) => {
-  res.json(require("./rookieRoadProgress.json"));
+  res.json(require("./data/rookieRoadProgress.json"));
 });
 
 app.all("/api/v2/rookie-road/:id", (req, res) => {
@@ -593,31 +593,31 @@ app.all("/api/v2/rookie-road/:id", (req, res) => {
 });
 
 app.all("/api/v1/in-app-purchase/*", (req, res) => {
-  res.json(require("./inAppPurchases.json"));
+  res.json(require("./data/inAppPurchases.json"));
 });
 
 app.all("/api/v1/supported-regions", (req, res) => {
-  res.json(require("./supportedRegions.json"));
+  res.json(require("./data/supportedRegions.json"));
 });
 
 app.all("/api/v2/event-mission-sets", (req, res) => {
-  res.json(require("./eventMissionSets.json"));
+  res.json(require("./data/eventMissionSets.json"));
 });
 
 app.all("/api/v1/settings", (req, res) => {
-  res.json(require("./settings.json"));
+  res.json(require("./data/settings.json"));
 });
 
 app.all("/api/v1/chat/group-messages/:id", (req, res) => {
-  res.json(require("./groupMessages.json"));
+  res.json(require("./data/groupMessages.json"));
 });
 
 app.all("/api/v1/events/:leaderboardId/leaderboard", (req, res) => {
   console.log(`Loaded LeaderboardId: ${req.params.leaderboardId}`);
 
-  res.json(require("./leaderboard.json"));
+  res.json(require("./data/leaderboard.json"));
 });
 
 app.all("/api/v1/popups", (req, res) => {
-  res.json(require("./popups.json"));
+  res.json(require("./data/popups.json"));
 });
