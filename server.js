@@ -44,6 +44,11 @@ app.all("/api/v1/players/selected-loadout", (req, res) => {
   res.json(require("./data/selectedLoadout.json"));
 });
 
+app.all("/api/v1/players/:id/loadouts", (req, res) => {
+  console.log(`PlayersIdLoadouts: ${req.params.id}`);
+  res.json(require("./data/loadouts.json"));
+});
+
 app.all("/api/v1/players/feature-flags", (req, res) => {
   res.json(require("./data/featureFlags.json"));
 });
@@ -309,10 +314,10 @@ app.all("/api/v1/mastery/:id/player", (req, res) => {
   res.json({
     timestamp: "2023-05-02T03:49:45.307Z",
     playerId: `${req.params.id}`,
-    currentLevel: 10000,
-    currentLevelXp: 0,
-    xpToNextLevel: 20000,
-    totalXp: 20000,
+    currentLevel: 100000000000000,
+    currentLevelXp: 10000000000000,
+    xpToNextLevel: 20000000000000000,
+    totalXp: 200000000000,
   });
 });
 

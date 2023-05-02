@@ -1,0 +1,499 @@
+{
+  "timestamp": "2023-05-02T08:22:26.930Z",
+  "loadouts": [
+    {
+      "slotId": "CD_SpeedySkirmisherDefault",
+      "characterAssetId": "CD_SpeedySkirmisher",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_StrikeRockSpeedUp",
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_DistancePower"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_AngelicSupportDefault",
+      "characterAssetId": "CD_AngelicSupport",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_MaxStaggerIncrease",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_EmpoweringEnchanterDefault",
+      "characterAssetId": "CD_EmpoweringEnchanter",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_SpecialCooldownAfterRounds",
+        "TD_StrikeRockSpeedUp",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_StalwartProtectorDefault",
+      "characterAssetId": "CD_StalwartProtector",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_MaxStaggerIncrease",
+        "TD_SizeIncrease"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_FlexibleBrawlerDefault",
+      "characterAssetId": "CD_FlexibleBrawler",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_StrikeRockSpeedUp",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_NimbleBlasterDefault",
+      "characterAssetId": "CD_NimbleBlaster",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_ManipulatingMastermindDefault",
+      "characterAssetId": "CD_ManipulatingMastermind",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_SpecialCooldownAfterRounds",
+        "TD_BuffAndDebuffDuration",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_MagicalPlaymakerDefault",
+      "characterAssetId": "CD_MagicalPlaymaker",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_DistancePower",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_ChaoticRocketeerDefault",
+      "characterAssetId": "CD_ChaoticRocketeer",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_EmpoweredHitsBuff",
+        "TD_DistancePower"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_TempoSniperDefault",
+      "characterAssetId": "CD_TempoSniper",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_DistancePower",
+        "TD_StrikeRockSpeedUp"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_CleverSummonerDefault",
+      "characterAssetId": "CD_CleverSummoner",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_DistancePower"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_HulkingBeastDefault",
+      "characterAssetId": "CD_HulkingBeast",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_KnockAnythingRecoverStagger",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_MagicalPlaymakerDefaultAlternate",
+      "characterAssetId": "CD_MagicalPlaymaker",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_DistancePower",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_StalwartProtectorDefaultAlternate",
+      "characterAssetId": "CD_StalwartProtector",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_MaxStaggerIncrease",
+        "TD_SizeIncrease"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_FlexibleBrawlerDefaultAlternate",
+      "characterAssetId": "CD_FlexibleBrawler",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_StrikeRockSpeedUp",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_SpeedySkirmisherDefaultAlternate",
+      "characterAssetId": "CD_SpeedySkirmisher",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_StrikeRockSpeedUp",
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_DistancePower"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_CleverSummonerDefaultAlternate",
+      "characterAssetId": "CD_CleverSummoner",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_DistancePower"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_NimbleBlasterDefaultAlternate",
+      "characterAssetId": "CD_NimbleBlaster",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_HulkingBeastDefaultAlternate",
+      "characterAssetId": "CD_HulkingBeast",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_KnockAnythingRecoverStagger",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_TempoSniperDefaultAlternate",
+      "characterAssetId": "CD_TempoSniper",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_DistancePower",
+        "TD_StrikeRockSpeedUp"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_AngelicSupportDefaultAlternate",
+      "characterAssetId": "CD_AngelicSupport",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_MaxStaggerIncrease",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_ManipulatingMastermindDefaultAlternate",
+      "characterAssetId": "CD_ManipulatingMastermind",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_SpecialCooldownAfterRounds",
+        "TD_BuffAndDebuffDuration",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_EmpoweringEnchanterDefaultAlternate",
+      "characterAssetId": "CD_EmpoweringEnchanter",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_SpecialCooldownAfterRounds",
+        "TD_StrikeRockSpeedUp",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_ChaoticRocketeerDefaultAlternate",
+      "characterAssetId": "CD_ChaoticRocketeer",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_EmpoweredHitsBuff",
+        "TD_DistancePower"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_ZipDefault",
+      "characterAssetId": "CD_Zip",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_StrikeRockSpeedUp",
+        "TD_FasterDashes"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_ZipDefaultAlternate",
+      "characterAssetId": "CD_Zip",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_StrikeRockSpeedUp",
+        "TD_FasterDashes"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_QuincyDefault",
+      "characterAssetId": "CD_Quincy",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_FasterDashes",
+        "TD_SpecialCooldownAfterRounds"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_QuincyDefaultAlternate",
+      "characterAssetId": "CD_Quincy",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_FasterDashes",
+        "TD_SpecialCooldownAfterRounds"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_GravityMage",
+      "characterAssetId": "CD_GravityMage",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_EmpoweredHitsBuff"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_GravityMageAlternate",
+      "characterAssetId": "CD_GravityMage",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_EmpoweredHitsBuff"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_DeadgeDefault",
+      "characterAssetId": "CD_Deadge",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_FasterDashes",
+        "TD_KnockAnythingRecoverStagger"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_DeadgeDefaultAlternate",
+      "characterAssetId": "CD_Deadge",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_EmpoweredHitsBuff",
+        "TD_FasterDashes",
+        "TD_KnockAnythingRecoverStagger"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_ShieldUserDefault",
+      "characterAssetId": "CD_ShieldUser",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_MaxStaggerIncrease",
+        "TD_EmpoweredHitsBuff"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_ShieldUserDefaultAlternate",
+      "characterAssetId": "CD_ShieldUser",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_MaxStaggerIncrease",
+        "TD_EmpoweredHitsBuff"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_EDMOniDefault",
+      "characterAssetId": "CD_EDMOni",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_StrikeRockSpeedUp",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_RockOniDefaultAlternate",
+      "characterAssetId": "CD_RockOni",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_EmpoweredHitsBuff",
+        "TD_SpecialCooldownAfterRounds"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_RockOniDefault",
+      "characterAssetId": "CD_RockOni",
+      "index": -1,
+      "allowedRoles": ["Forward"],
+      "trainingAssetIds": [
+        "TD_PrimaryAbilityCooldownReduction",
+        "TD_EmpoweredHitsBuff",
+        "TD_SpecialCooldownAfterRounds"
+      ],
+      "customName": "Default Forward",
+      "banCharacterAssetId": null
+    },
+    {
+      "slotId": "CD_EDMOniDefaultAlternate",
+      "characterAssetId": "CD_EDMOni",
+      "index": -1,
+      "allowedRoles": ["Goalie"],
+      "trainingAssetIds": [
+        "TD_StrikeRockSpeedUp",
+        "TD_SpecialCooldownAfterRounds",
+        "TD_PrimaryAbilityCooldownReduction"
+      ],
+      "customName": "Default Goalie",
+      "banCharacterAssetId": null
+    }
+  ]
+}
