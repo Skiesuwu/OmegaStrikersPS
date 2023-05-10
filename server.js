@@ -1198,7 +1198,9 @@ app.all("/api/v1/supported-regions", (req, res) => {
 });
 
 app.all("/api/v2/event-mission-sets", (req, res) => {
-  res.json(require("./api/v2/event-mission-sets.json"));
+  res.json(
+    require("./api/v2/event-mission-sets[1]/creator_versus_2023_1/begin.json")
+  );
 });
 
 app.all("/api/v1/settings", (req, res) => {
@@ -1206,13 +1208,13 @@ app.all("/api/v1/settings", (req, res) => {
 });
 
 app.all("/api/v1/chat/group-messages/:id", (req, res) => {
-  res.json(require("./api/v1/chat/group-messages/" + req.params.id + ".json"));
+  res.json(
+    require("./api/v1/chat/group-messages/1c6eb691-33b9-4547-9fb7-6ce85d414fa3.json")
+  );
 });
 
 app.all("/api/v1/events/:leaderboardId/leaderboard", (req, res) => {
-  res.json(
-    require("./api/v1/events/" + req.params.leaderboardId + "/leaderboard")
-  );
+  console.log(`From events/:leaderboardId: ${req.params.leaderboardId}`);
 });
 
 app.all("/api/v1/popups", (req, res) => {
